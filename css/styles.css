@@ -1,0 +1,175 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+#title {
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+.container-fluid {
+    padding: 3% 15% 10%;
+    overflow: hidden;
+}
+
+h1 {
+    font-family: "Montserrat";
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+h2 {
+    font-family: "Montserrat";
+    font-weight: 800;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+h3 {
+    font-family: "Montserrat";
+    font-weight: 900;
+    font-size: 1.5rem;
+}
+
+p {
+    font-family: "Montserrat";
+    font-weight: 600;
+    /* font-size: 1.5rem; */
+}
+
+  /* Navigation Bar */
+
+  .navbar {
+      padding: 0 0 4.5rem;
+  }
+
+  .navbar-brand {
+      font-family: ubuntu;
+      font-weight: 400;
+      font-size: 2.5rem;
+  }
+
+  .nav-item {
+      padding: 0 18px;
+  }
+
+  .nav-link {
+      font-size: 1.2rem;
+      font-family: "Montserrat";
+  }
+
+
+  /* Download buttons */
+
+  .download-button {
+      margin: 5% 3% 5% 0%;
+
+  }
+  /* Title Image */
+
+  .title-image {
+      max-width: 60%;
+      z-index: 1;
+      position: absolute;
+      /* margin: 3em 5em -12em; */
+    }
+  .rotate {
+      transform: rotate(25deg);
+  }
+
+
+  /* Features */
+
+  #features {
+    padding: 7% 15%;
+    text-align: center;
+    background-color: white;
+    position: relative;
+    z-index: 2;
+    width: 100%;
+  }
+
+  .feature-col {
+    text-align: center;
+    padding: 5%;
+  }
+
+  #features p {
+      color: #8f8f8f;
+  }
+
+  .pink-icon {
+      color: #ef8172;
+      margin-bottom: 1rem;
+  }
+  
+  .pink-icon:hover {
+      color: #ff4c68;
+  }
+
+
+  /* Testimonial Section */
+
+  #testimonials {
+      padding: 7% 15%;
+      text-align: center;
+      background-color: #ef8172;
+      color: #fff;
+  }
+
+  .testimonial-image {
+      width: 10%;
+      border-radius: 100%;
+      margin: 20px;
+  }
+
+  #press {
+      background-color: #ef8172;
+      text-align: center;
+      padding-bottom: 3%;
+  }
+
+  .press-logo {
+      width: 15%;
+      margin: 20px 20px 50px;
+  }
+
+
+  /* Pricing Section */
+
+  #pricing {
+      padding: 100px;
+      text-align: center;
+  }
+
+  .pricing-col {
+      padding: 3% 2%;
+  }
+
+
+  /* CTA */
+
+  #cta {
+      text-align: center;
+      background-color: #ff4c68;
+      padding: 5% 15%;
+      color: #fff;
+  }
+
+
+  /* Footer  */
+
+#footer {
+    background-color: #fff;
+    color: #8f8f8f;
+    text-align: center;
+    padding: 5% 15%;
+    font-size: 1.2rem;
+}
+
+.black-icon {
+    color: #22252A;
+    margin: 2% 1%;
+}
